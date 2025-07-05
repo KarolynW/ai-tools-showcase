@@ -94,19 +94,22 @@ body.dark-mode {
   .menu-toggle {
     display: block;
   }
+
   .menu {
     display: none;
     flex-direction: column;
     gap: 10px;
   }
+
   nav.open .menu {
     display: flex;
   }
+
   body {
     padding: 10px;
   }
+
   .tool {
     padding: 15px;
   }
 }
-
