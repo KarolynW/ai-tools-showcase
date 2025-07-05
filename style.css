@@ -22,6 +22,12 @@ h1 {
   color: var(--heading-color);
 }
 
+.codex-info {
+  text-align: center;
+  margin: 0 auto 20px auto;
+  max-width: 700px;
+}
+
 .tool {
   background: var(--tool-bg);
   border-radius: 8px;
