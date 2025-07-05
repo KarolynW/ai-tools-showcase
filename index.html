@@ -2,146 +2,122 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AI Tools for Academic Skills & Assessment</title>
-  <link rel="stylesheet" href="style.css">
+  <title>AI Assignment Workflow Demo</title>
+  <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-  <nav>
-    <button id="menu-toggle" class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
-    <ul class="menu">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="demo-prompts.html">Demo Prompts</a></li>
+
+  <h1>🧠 AI Workflow Demonstration: Assignment Planning with AI Tools</h1>
+
+  <div class="tool">
+    <h2>Step 1: Access an AI Chat Interface</h2>
+    <p>Go to <a href="https://m365.cloud.microsoft/chat" target="_blank">https://m365.cloud.microsoft/chat</a> and sign in using your institutional Microsoft 365 account.</p>
+    <p>This will open an AI assistant interface where you can upload files and enter natural language prompts.</p>
+  </div>
+
+  <div class="tool">
+    <h2>Step 2: Download the Assignment Brief from Canvas</h2>
+    <ul>
+      <li>Open the assignment in Canvas (e.g. <em>Element 010: Portfolio</em>).</li>
+      <li>Right-click anywhere on the page (avoiding links or images).</li>
+      <li>Select <code>Save as...</code> and choose to save it as a complete HTML file.</li>
+      <li>Name it something like <code>Element_010_Portfolio.html</code>.</li>
     </ul>
-  </nav>
+  </div>
 
-  <button id="theme-toggle" aria-label="Toggle dark mode">Toggle dark mode</button>
+  <div class="tool">
+    <h2>Step 3: Upload the HTML File and Ask for a Breakdown</h2>
+    <p>Upload your saved HTML file into the AI tool.</p>
+    <p>Prompt:</p>
+    <code>Element_010_Portfolio.html – please analyse my assignment brief presented in HTML.</code>
+    <p>The tool will extract and summarise the brief, including structure, learning outcomes, and rubric details.</p>
+  </div>
 
-<h1>AI Tools to Support Graduate Capabilities</h1>
-<p class="codex-info">This GitHub page is also an example of interacting with Codex. Codex is an AI agent that reads instructions from users and automatically updates code.</p>
+  <div class="tool">
+    <h2>Step 4: Request a 12-Week Project Plan</h2>
+    <p>Prompt:</p>
+    <code>I need help planning my assignment – it is week one. I need a weekly breakdown of tasks with actionable micro tasks to help me manage my time. I have approximately one day per week to work on this.</code>
+    <p>You’ll receive a structured timeline organised by week with realistic, achievable tasks.</p>
+  </div>
 
-<div class="tool">
-  <h2>Microsoft 365 Copilot</h2>
-  <p>
-    Your personal AI assistant built into Word, Excel, and accessible via 
-    <a href="https://www.microsoft365.com/" target="_blank">https://www.microsoft365.com/</a>. 
-    Use the <strong>Chat</strong> feature to break down assignments, summarise documents, plan tasks across weeks, or generate calendar entries. 
-    Ideal for improving organisation, task tracking, and planning. Sign in with your <code>@ieg.ac.uk</code> email.
-  </p>
-</div>
+  <div class="tool">
+    <h2>Step 5: Generate a Checklist</h2>
+    <p>Prompt:</p>
+    <code>I would like a checklist to mark off the work per week – assume the submission date is 05/12/2025.</code>
+    <p>The AI tool generates a downloadable checklist (e.g. Word or PDF) with tick boxes for tracking progress.</p>
+  </div>
 
-<div class="tool">
-  <h2>Google Gemini</h2>
-  <p>
-    A powerful general-purpose chatbot for writing help, brainstorming, and task breakdowns. 
-    Available at <a href="https://gemini.google.com/" target="_blank">https://gemini.google.com/</a>. 
-    Sign in with your IEG account for secure use. Can be paired with Notebook LM and Drive tools.
-  </p>
-</div>
+  <div class="tool">
+    <h2>Step 6: Create Weekly Calendar Events</h2>
+    <p>Prompt:</p>
+    <code>Please create calendar reminders in .ics format – they should mark me as busy each week on Friday between 9 and 5 and list my tasks for the day.</code>
+    <p>You can import the .ics file into Outlook, Google Calendar, or Apple Calendar.</p>
+  </div>
 
-<div class="tool">
-  <h2>Lucidchart & Lucidspark</h2>
-  <p>
-    Visual collaboration tools for academic planning, mind maps, diagrams, and group projects. 
-    <strong>Lucidchart</strong> is ideal for structured diagrams like flowcharts and concept maps, while 
-    <strong>Lucidspark</strong> offers a flexible whiteboard for brainstorming and ideation.
-    Both tools are accessible from the same interface once signed in.
-    Sign up with your <code>@ac.uk</code> email at 
-    <a href="https://lucid.co/lucidspark" target="_blank">https://lucid.co/lucidspark</a> 
-    to unlock a free Educational plan.
-  </p>
-</div>
+  <div class="tool">
+    <h2>Step 7: Optional – Request a Mental Focus Image</h2>
+    <p>Prompt:</p>
+    <code>Please make an image of a calming and zen environment to focus my pre-assessment nerves.</code>
+    <p>The AI tool generates a peaceful image to reduce stress and improve focus.</p>
+  </div>
 
-<div class="tool">
-  <h2>Perplexity.ai</h2>
-  <p>
-    A research search engine with real citations. Use it to find recent, peer-reviewed journal articles. 
-    Head to <a href="https://www.perplexity.ai/" target="_blank">https://www.perplexity.ai/</a>. 
-    Free accounts have a daily limit, but it's an excellent tool for starting academic research or summarising findings.
-  </p>
-</div>
+  <div class="tool">
+    <h2>Step 8: Use Gemini with RAG to Expand Case Study Ideas</h2>
+    <ul>
+      <li>Logged into Gemini with an <code>@ieg.ac.uk</code> account (grants Gemini Pro access with enterprise security).</li>
+      <li>Dictated rambling ideas for a case study into a Word document.</li>
+      <li>Uploaded the document into Gemini using Retrieval-Augmented Generation (RAG).</li>
+      <li>Prompted Gemini to expand and refine it into a full professional case study.</li>
+    </ul>
+  </div>
 
-<div class="tool">
-  <h2>Notebook LM</h2>
-  <p>
-    AI workspace for your documents. Upload readings, exemplars, briefs, and mark schemes. 
-    Ask questions, generate summaries or outlines, or even produce podcast scripts. 
-    Visit <a href="https://notebooklm.google/" target="_blank">https://notebooklm.google/</a> and sign in with your IEG account.
-  </p>
-</div>
+  <div class="tool">
+    <h2>Step 9: Example Case Study - Fenland Roasters</h2>
+    <p><strong>Context:</strong> Fenland Roasters is an independent coffee roaster in Ely, Cambridgeshire. The goal was to develop a digital strategy to improve visibility, engagement, and sales.</p>
 
-<div class="tool">
-  <h2>Suno</h2>
-  <p>
-    AI music generation tool. Create backing tracks, theme songs, or audio branding in seconds. 
-    Free credits on sign-up at <a href="https://suno.com/" target="_blank">https://suno.com/</a>. 
-  </p>
-</div>
+    <h3>Challenges:</h3>
+    <ul>
+      <li>Limited online visibility</li>
+      <li>Low brand awareness</li>
+      <li>Inconsistent sales</li>
+      <li>Lack of customer engagement</li>
+    </ul>
 
-<div class="tool">
-  <h2>Adobe Express</h2>
-  <p>
-    Graphic and video design made easy. Ideal for social media assets, posters, and presentations. 
-    Access the free tier at <a href="https://www.adobe.com/uk/express" target="_blank">https://www.adobe.com/uk/express</a>. 
-    Some limits on generative features unless using a paid plan or institutional licence.
-  </p>
-</div>
+    <h3>Strategy Highlights:</h3>
+    <ol>
+      <li>Website optimisation with e-commerce and subscriptions</li>
+      <li>Content marketing (blogs, videos, guides)</li>
+      <li>Social media strategy across Instagram and Facebook</li>
+      <li>Targeted email marketing with segmentation</li>
+      <li>Local SEO and Google profile optimisation</li>
+      <li>Subscription service tiers and user control</li>
+    </ol>
 
-<div class="tool">
-  <h2>Hume AI</h2>
-  <p>
-    Voice and emotion recognition API. Can be used in chatbot projects, affective computing, and feedback loops. 
-    Start at <a href="https://www.hume.ai/" target="_blank">https://www.hume.ai/</a> with free credits for testing.
-  </p>
-</div>
+    <h3>Outcomes:</h3>
+    <ul>
+      <li>Increased visibility and awareness</li>
+      <li>Stable revenue through subscriptions</li>
+      <li>Better engagement and loyalty</li>
+      <li>Established brand authority</li>
+    </ul>
+  </div>
 
-<div class="tool">
-  <h2>GitHub Copilot Pro (Education Access)</h2>
-  <p>
-    Code faster with AI suggestions in VS Code and other editors. 
-    Educators and students can get Pro access free via the 
-    <a href="https://docs.github.com/en/copilot/how-tos/manage-your-account/getting-free-access-to-copilot-pro-as-a-student-teacher-or-maintainer" target="_blank">
-      GitHub Education Programme
-    </a>.
-  </p>
-</div>
+  <div class="tool">
+    <h2>Step 10: Use LucidSpark to Expand Social Media Strategy</h2>
+    <ul>
+      <li>Logged into <strong>LucidSpark</strong> using an <code>.ac.uk</code> email for a free educational licence.</li>
+      <li>Clicked the <strong>sparkle icon</strong> on the left toolbar to access <em>AI Quick Actions</em>.</li>
+      <li>Asked the AI to suggest social media platforms, content formats, and promotional ideas for coffee roasters.</li>
+      <li>LucidSpark generated grouped sticky notes including:</li>
+      <ul>
+        <li>Platform ideas: Instagram, TikTok, Pinterest, YouTube, Reddit</li>
+        <li>Content types: Reels, Stories, Polls, Quizzes, Lives, Memes</li>
+        <li>Campaign concepts: Brew Tips Series, Customer Stories, Seasonal Flavours, Sustainable Beans</li>
+      </ul>
+    </ul>
+    <p>The board was used to visually cluster and refine campaign strategies across multiple channels.</p>
+  </div>
 
-<div class="tool">
-  <h2>Azure for Students</h2>
-  <p>
-    Microsoft’s cloud platform with access to AI tools, data services, and app hosting. 
-    Sign up for a free education plan at 
-    <a href="https://azure.microsoft.com/en-us/free/students" target="_blank">
-      https://azure.microsoft.com/en-us/free/students
-    </a>. 
-    Ideal for digital project-based learning.
-  </p>
-</div>
-
-<div class="tool">
-  <h2>Microsoft Cloud Ready Skills + University Challenge</h2>
-  <p>
-    Free learning platform offering Microsoft certifications and the University Challenge for UK institutions. 
-    Access at 
-    <a href="https://itmuni.cloudreadyskills.com/MSUK/UCC25" target="_blank">
-      https://itmuni.cloudreadyskills.com/MSUK/UCC25
-    </a>. 
-    Supports employability and AI fluency at scale.
-  </p>
-</div>
-
-<div class="tool">
-  <h2>Bing Video Generator (Sora)</h2>
-  <p>
-    Generate AI-powered video content using Microsoft's Bing platform, powered by Sora. 
-    Quickly create short, stylised videos based on prompts. Ideal for visual storytelling and presentations. 
-    Try it free at 
-    <a href="https://www.bing.com/images/create?ctype=video&FORM=Bvcmc1" target="_blank">
-      https://www.bing.com/images/create?ctype=video&FORM=Bvcmc1
-    </a>.
-  </p>
-</div>
-
-<script src="scripts/main.js"></script>
 </body>
 </html>
+
