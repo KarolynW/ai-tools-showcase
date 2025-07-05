@@ -23,8 +23,13 @@ function setupMenu() {
   });
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-  setInitialTheme();
-  setupToggle();
-  setupMenu();
-});
+if (typeof document !== 'undefined') {
+  document.addEventListener('DOMContentLoaded', () => {
+    setInitialTheme();
+    setupToggle();
+    setupMenu();
+  });
+}
+
+if (typeof module !== "undefined") { module.exports = { setInitialTheme, setupToggle, setupMenu }; }
+
