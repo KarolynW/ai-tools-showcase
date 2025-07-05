@@ -14,7 +14,17 @@ function setupToggle() {
   });
 }
 
+function setupMenu() {
+  const nav = document.querySelector('nav');
+  const toggle = document.getElementById('menu-toggle');
+  if (!nav || !toggle) return;
+  toggle.addEventListener('click', () => {
+    nav.classList.toggle('open');
+  });
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   setInitialTheme();
   setupToggle();
+  setupMenu();
 });
