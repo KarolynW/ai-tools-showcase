@@ -1,0 +1,33 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 1rem;
+    background: #f4f4f4;
+    color: #333;
+}
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.tool-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+.tool-card {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.tool-card .logo {
+    max-width: 80px;
+}
+.tool-card .qr-code {
+    max-width: 100px;
+    margin-top: 1rem;
+}
