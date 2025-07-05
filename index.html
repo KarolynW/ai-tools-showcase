@@ -4,40 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AI Tools for Academic Skills & Assessment</title>
-  <style>
-    body {
-      font-family: system-ui, sans-serif;
-      background: #f9f9f9;
-      margin: 0;
-      padding: 20px;
-      line-height: 1.6;
-      color: #333;
-    }
-    h1 {
-      text-align: center;
-      color: #1a1a1a;
-    }
-    .tool {
-      background: white;
-      border-radius: 8px;
-      padding: 20px;
-      margin: 20px auto;
-      max-width: 800px;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    }
-    a {
-      color: #0066cc;
-    }
-    code {
-      background: #eee;
-      padding: 2px 6px;
-      border-radius: 4px;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<nav>
+  <button id="menu-toggle" class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+  <ul class="menu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="demo-prompts.html">Demo Prompts</a></li>
+  </ul>
+</nav>
+
+<button id="theme-toggle" aria-label="Toggle dark mode">Toggle dark mode</button>
+
 <h1>AI Tools to Support Graduate Capabilities</h1>
+<p class="codex-info">This GitHub page is also an example of interacting with Codex. Codex is an AI agent that reads instructions from users and automatically updates code.</p>
 
 <div class="tool">
   <h2>Microsoft 365 Copilot</h2>
@@ -161,5 +143,6 @@
   </p>
 </div>
 
+<script src="scripts/main.js"></script>
 </body>
 </html>
