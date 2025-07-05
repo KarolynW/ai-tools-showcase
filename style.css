@@ -76,6 +76,24 @@ code {
   border-radius: 4px;
 }
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+}
+
+th, td {
+  padding: 8px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+caption {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+
 /* Dark mode styles */
 body.dark-mode {
   --bg-color: #1a1a1a;
@@ -114,6 +132,12 @@ body.dark-mode {
 
   body {
     padding: 10px;
+  }
+
+  table {
+    font-size: 0.9em;
+    display: block;
+    overflow-x: auto;
   }
 
   .tool {
